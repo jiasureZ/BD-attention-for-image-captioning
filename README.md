@@ -1,6 +1,6 @@
 # BD-Attention for Image Captioning
 
-great thanks to Luo's code [self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch) for providing a strong baseline for my experiments.
+Great thanks to Luo's code [self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch) for providing a strong baseline for my experiments.
 
 ## Requirements
 Python 2.7 (because there is no [coco-caption](https://github.com/tylin/coco-caption) version for python 3)
