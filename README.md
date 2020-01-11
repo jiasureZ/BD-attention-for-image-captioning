@@ -54,22 +54,6 @@ $ python train.py --id td_bda --caption_model topdown_preh_gate --input_json dat
 
 ## Generate image captions
 
-### Evaluate on raw images
-Now place all your images of interest into a folder, e.g. `blah`, and run
-the eval script:
-
-```bash
-$ python eval.py --model model.pth --infos_path infos.pkl --image_folder blah --num_images 10
-```
-
-This tells the `eval` script to run up to 10 images from the given folder. If you have a big GPU you can speed up the evaluation by increasing `batch_size`. Use `--num_images -1` to process all images. The eval script will create an `vis.json` file inside the `vis` folder, which can then be visualized with the provided HTML interface:
-
-```bash
-$ cd vis
-$ python -m SimpleHTTPServer
-```
-
-Now visit `localhost:8000` in your browser and you should see your predicted captions.
 
 ### Evaluate on Karpathy's test split
 
